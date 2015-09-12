@@ -1,0 +1,53 @@
+body
+{
+	background-color: #000000;
+}
+
+/* fonts include
+font-family: 'Itim', cursive;
+font-family: 'Akronim', cursive;
+font-family: Arial, Helvetica, sans-serif;
+*/
+
+h1
+{
+	text-align: center;
+	color: #dd0000;
+	font-size: 90px;
+	font-family: 'Akronim', cursive;
+	line-height: 1%;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2
+{
+	text-align: center;
+	color: #dd0000;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Itim', cursive;
+}
+
+p
+{
+	text-align: center;
+	color: #dd0000;
+	font-size: 20px;
+	font-family: 'Itim', cursive;
+}
+
+.block
+{
+	display: inline-block;
+}
+
+a:link{color:#FFFF77; background-color:transparent; text-decoration:none}
+a:visited{color:#FFFF00; background-color:transparent; text-decoration:none}
+a:hover{color:#FFFF33; background-color:transparent; text-decoration:underline}
+a:active{color:#000000; background-color:transparent; text-decoration:underline}
