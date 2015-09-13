@@ -36,10 +36,11 @@ h2
 
 p
 {
-	text-align: center;
+	text-align: left;
 	color: #ffff00;
 	font-size: 20px;
 	font-family: 'Itim', cursive;
+	line-height: 140%;
 }
 
 .block
@@ -49,6 +50,7 @@ p
 
 a
 {
+	text-align: left;
 	font-family: 'Itim', cursive;
 	font-size: 20px;
 }
@@ -72,12 +74,12 @@ a:hover
 }
 a:active
 {
-	color: #ff0088;
-	background-color: transparent;
-	text-decoration: underline
+	color:#ff0088;
+	background-color:transparent;
+	text-decoration:underline
 }
 
 ul
 {
-	color: #ff00ff
+	color: #ffff00
 }
