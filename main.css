@@ -93,3 +93,15 @@ ul
 {
 	color: #ff00ff
 }
+
+#images 
+{
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+}
+#images div
+{
+	display:inline-block;
+}
