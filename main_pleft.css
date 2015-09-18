@@ -33,6 +33,7 @@ h1:active
 img
 {
     display: block;
+    border: 0;
 }
 
 h2
