@@ -20,24 +20,31 @@ h1
 	font-size: 80px;
 	line-height: 100%;
 	background-color: #add8e6;
+	text-decoration: none;
 }
 h1:hover
 {
-	color: #ff6600;
-	background-color: transparent;
-	text-decoration: underline;
+	text-align: center;
+	color: #000000;
+	font-size: 80px;
+	line-height: 100%;
+	background-color: #add8e6;
+	text-decoration: none;
 }
 h1:active
 {
-	color: #ff6600;
-	background-color: transparent;
-	text-decoration: underline;
+	text-align: center;
+	color: #000000;
+	font-size: 80px;
+	line-height: 100%;
+	background-color: #add8e6;
+	text-decoration: none;
 }
 
 h2
 {
 	text-align: center;
-	color: #ffff00;
+	color: #ffffff;
 	font-size: 40px;
 	font-weight: bold;
 	font-family: 'Itim', cursive;
@@ -67,31 +74,31 @@ p
 a
 {
 	text-align: center;
-	color: #ff00ff;
+	color: #0000EE;
 	font-family: 'Itim', cursive;
 	font-size: 20px;
 }
 a:link
 {
-	color:#ff00ff;
+	color:#0000EE;
 	background-color:transparent;
 	text-decoration:none
 }
 a:visited
 {
-	color:#ff00ff;
+	color:#551A8B;
 	background-color:transparent;
 	text-decoration:none
 }
 a:hover
 {
-	color:#700070;
+	color:#0000EE;
 	background-color:transparent;
 	text-decoration:underline
 }
 a:active
 {
-	color: #ff0088;
+	color: #0000EE;
 	background-color: transparent;
 	text-decoration: underline
 }
