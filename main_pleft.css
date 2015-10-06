@@ -103,3 +103,45 @@ ul
 {
 	color: #ffff00
 }
+
+span.dropt
+{
+text-align: center;
+color: #ffff00;
+font-size: 18px;
+font-family: 'Itim', cursive;
+}
+span.dropt:hover 
+{
+text-align: center;
+color: #ffff00;
+font-size: 18px;
+font-family: 'Itim', cursive;
+}
+span.dropt span
+{
+position: absolute; left: 0px;
+margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
+border-style:solid; border-color:black; border-width:1px; z-index: 0;
+}
+span.dropt:hover span 
+{
+left: 2%;
+background: #111111;
+}
+span.dropt span 
+{
+position: absolute;
+left: -9999px;
+margin: 0px 0 0 0px;
+padding: 3px 3px 3px 3px; 
+border-style:solid;
+border-color:black;
+border-width:1px;
+  }
+span.dropt:hover span
+{
+margin: 20px 0 0 34.6%;
+background: #111111;
+z-index:6;
+} 
