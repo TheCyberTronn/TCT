@@ -55,7 +55,6 @@ h3
 	color: #ff00ff;
 	font-family: 'Itim', cursive;
 	font-size: 50px;
-	line-height: 0%;
 }
 
 p
@@ -77,7 +76,7 @@ a
 	color: #ff00ff;
 	font-family: 'Itim', cursive;
 	font-size: 20px;
-	line-height: 0%;
+	line-height: 100%;
 }
 a:link
 {
