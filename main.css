@@ -63,6 +63,7 @@ p
 	color: #ffff00;
 	font-size: 18px;
 	font-family: 'Itim', cursive;
+	line-height: 125%;
 }
 
 .block
@@ -76,7 +77,7 @@ a
 	color: #ff00ff;
 	font-family: 'Itim', cursive;
 	font-size: 20px;
-	line-height: 100%;
+	line-height: 110%;
 }
 a:link
 {
@@ -130,44 +131,49 @@ ul
 
 span.dropt
 {
-text-align: center;
-color: #ffff00;
-font-size: 18px;
-font-family: 'Itim', cursive;
+	text-align: center;
+	color: #ffff00;
+	font-size: 18px;
+	font-family: 'Itim', cursive;
 }
 span.dropt:hover 
 {
-text-align: center;
-color: #ffff00;
-font-size: 18px;
-font-family: 'Itim', cursive;
+	text-align: center;
+	color: #ffff00;
+	font-size: 18px;
+	font-family: 'Itim', cursive;
 }
 span.dropt span
 {
-position: absolute; left: 0px;
-margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
-border-style:solid; border-color:black; border-width:1px; z-index: 0;
+	position: absolute;
+	left: 0px;
+	margin: 20px 0 0 0px;
+	padding: 3px 3px 3px 3px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	z-index: 0;
 }
 span.dropt:hover span 
 {
-left: 2%;
-background: #111111;
+	left: 2%;
+	background: #111111;
 }
 span.dropt span 
 {
-position: absolute;
-left: -9999px;
-margin: 0px 0 0 0px;
-padding: 3px 3px 3px 3px; 
-border-style:solid;
-border-color:black;
-border-width:1px;
+	position: absolute;
+	left: -9999px;
+	margin: 0px 0 0 0px;
+	padding: 3px 3px 3px 3px; 
+	border-style: solid;
+	border-color: #b0b0b0;
+	border-width: 1px;
   }
 span.dropt:hover span
 {
-margin: 20px 0 0 34.6%;
-background: #111111;
-z-index:6;
+	margin: 20px 0 0 34.6%;
+	background: #1f1f1f;
+	z-index:6;
 } 
 
 footer
@@ -176,7 +182,7 @@ footer
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: 10%;
     width: 100%;
     overflow:hidden;
 }
