@@ -1,0 +1,137 @@
+<!--Must declair doctype before doing anything else.-->
+<!DOCTYPE html>
+<!--Opens the HTML tag, specifying language to en-GB (useful for screen readers)-->
+<html lang="en-GB">
+	<!--Opens the head tag: used for defining metadata; not content.-->
+	<head>
+	<!--Sets the title of the webpage: what the tab in the browser says.-->
+	<title>Title, yo.</title>
+	</head>
+	<!--Opens the body tag.-->
+	<body>
+		<!--Header 1, the largest and most important of all the headers.-->
+		<h1>Main Header</h1>
+		<!--Why doesn't header 2, the largest header, simply eat the others?-->
+		<h2>Smaller Header</h2>
+		<!--Get the picture now? But h6 is the smallest header.-->
+		<h6>The smallest header (I left out h3-h5 because that's too much, man)</h6>
+		<!--Paragraph text.-->
+		<p>Paragraph text!</p>
+		<!--Ignore this. It's used later.-->
+		<h1 id="top">.</h1>
+		
+		<!--A link. href determines the destination.-->
+		<a href="http://www.example.com">This links to example.com</a><br> <!--Casual line break because it wouldn't otherwise display correctly-->
+		<!--Sloths are great. alt is good for screen readers, used for a description of the image.-->
+		<img src="sloth.jpg" alt="Hey look, a sloth!" width="320" height="180">
+		
+		<!--The pre tag allows for line breaks whenever the line breaks in source. Without this, it'd just run on and on and on and on and on and you get the picture.-->
+		<pre>
+My Bonnie lies over the ocean.
+My Bonnie lies over the sea.
+My Bonnie lies over the ocean.
+Oh, bring back my Bonnie to me.
+		</pre>
+		
+		<!--The next few lines show using CSS in HTML. Mindblowing, right?-->
+		<p style="color: #f00;">Hey look this is red!</p>
+		<p style="color: #00f;">Now it's blue!</p>
+		<p style="font-family: verdana;">This is a font called "verdana".</p>
+		<p style="font-family: courier;">This is a font called "courier".</p>
+		<p style="font-size: 200%">This font is double-sized.</p>
+		<p style="text-align: center;">Middle.</p>
+		<p style="text-align: right;">Right.</p>
+		<p>Back to left.</p>
+		<!--Bold!-->
+		<b>BOLD TEXT</b><br><!--So it turns out that because this section of tags are supposed to be used in-line, they don't auto-break. Huh, the more you know.-->
+		<!--Italic!-->
+		<i>italic text</i><br>
+		<!--Subscript-->
+		<p><sub>sub</sub>script</p>
+		<!--Superscript-->
+		<p><sup>super</sup>script</p>
+		<!--Tooltips: because why not.-->
+		<p title="Told you so.">This text has a tooltip! Hover to see more.</p>
+		
+		<!--Quotes-->
+		<p><q>These <q>quotation</q> marks <q>are</q> part <q>of</q> an <q>HTML</q> tag.</q></p>
+		<!--Blockquotes-->
+		<blockquote><b>This is a full blocked quote. See how the padding goes perfectly around the edges of the quote, the top, the left and right, and the bottom, all have a bit of a margin.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper vehicula nulla, a rhoncus libero rutrum et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum vel erat sed ipsum ultrices elementum vel ac ex. Nam ut dui risus. Curabitur blandit pellentesque lectus non viverra. Sed condimentum orci urna, sed pretium ipsum dignissim eget. Maecenas augue nisi, suscipit quis efficitur vel, finibus quis nisi. Sed justo augue, tristique vel dui a, efficitur dictum tortor.</blockquote>
+		
+		<!--Abbreviations-->
+		<p>So essentially if I wanted to abbreviate a word down to just the first letter of every word, I could do it like this: <abbr title="Ha Ha LOL Made You Look At The Abbreviated Thing IDK Where This Is Headed Anymore">HHLOLMYLATATIDKWTIHA</abbr>. All you have to do is hover over the abbreviated letters or whatever you call that.</p>
+		
+		<p>Okay so because I don't want to belabour the point, the following tags exist:
+		<ul>
+		<li>UL to make this list work.</li>
+		<li>LI to make this list have all the list entries</li>
+		<li>ADDRESS for when you need to write an address</li>
+		<li>CITE for citating things.</li>
+		<li><bdo dir="rtl">BDO to make text reverse</bdo></li>
+		<sup>Read that one backwards.</sup>
+		<li>KBD, SAMP, and CODE make it look like computer code.</li>
+		<li>VAR for scientific variables</li>
+		<li>Comments exist too but I can't show them because... well... just think about it.</li>
+		</ul>
+		
+		<p>To add an external CSS page, you've gotta do<br>
+		LINK rel="stylesheet" href="insert\path\to\file\here.css"</p>
+		
+		<!--Okay so to place a marker in somewhere you've gotta give it an ID. Do this by added "id="[id]"" to the opening tag. Then, when you wanna link back to it, add "href="#[id]"" to where you want the user to click to link back.-->
+		<a href="#top"><p>So I know this looks out of place, but this is a link to the top of the page to show how bookmarks work sort of.</p></a>
+		
+		<!--Animated gifs-->
+		<img src="https://media.giphy.com/media/SqGzDP3l5NNQY/giphy.gif" alt="So the web page went on about gifs so for anyone who's blind, you're missing out on some primo stuff not gonna lie">
+		
+		<p style="font-size:16px;">IMAGE MAPS! CLICK ON THE HORSE EYE</p>
+		<img src="horse.png" alt="Horse" usemap="#horsemap">
+		<map name="horsemap">
+			<area shape="circle" coords="160,106,10" alt="Eye" href="page2.html">
+			<!--
+			Okay so the following is an example of a rectangle but that's not in this because it wouldn't make sense.
+			<area shape="rect" coords="x1,y1,x2,y2" alt="Name" href="url.html">
+			-->
+		</map>
+		
+		<!--160 106 r=10-->
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
